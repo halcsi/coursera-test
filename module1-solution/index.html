@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="LunchCheck">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>First assigment Coursera-angularJs by Halcsi</title>
+  </head>
+  <body>
+    <h1>First assigment Coursera-angularJs by Halcsi</h1>
+    <div ng-controller="LunchCheckController">
+      <input type="text" ng-model="meal"/>
+      <!-- NOT consider and empty item it will be trimmed -->
+      <button ng-click="checkLunchClick()">
+      Check If Too Much
+      </button>
+      <br/>
+      {{message}}
+    </div>
+    <script/>
+    <!-- 5. Requirement
+    	I didn't know the reason of this script tag. -->
+  </body>
+</html>
