@@ -1,0 +1,9 @@
+<ul>
+  <li ng-repeat="item in $ctrl.items">
+  	<div class="tooltip">
+    	{{ item.short_name }} {{ item.name }} {{item.price_large}}
+    
+  		<span class="tooltiptext">{{ item.description }}</span>
+	</div>
+  </li>
+</ul>
